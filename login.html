@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewpost" content="width=decive-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="awesome/css/all.min.css">
+	<script type="text/javascript" src="css/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="css/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div class="menu">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-4">
+					<i class="fas fa-hand-sparkles" id="clear">
+						Fashion
+					</i>
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sale.html">SALES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<div class="login">
+						<a href="login.html" class="sidebar">Login/</a>
+					    <a href="register.html" class="sidebar">Register</a>
+					    <a href="cart.html" class="sidebar">
+					        <i class="fas fa-cart-plus"></i>
+					    </a>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="center">
+		<form class="form" id="form" action="" method="">
+			<div class="logins">Đăng nhập</div>
+			<div class="form-group">
+				<label for="username">Tên đăng nhập</label>
+				<input type="text" id="username" class="form-control" placeholder="Username">
+			</div>
+			<div class="form-group">
+				<label for="pass">Mật khẩu</label>
+				<input type="password" id="pass" class="form-control" placeholder="password">
+			</div>
+			<button type="submit" class="btn btn-primary">Login</button>
+			<div class="Register">
+				<a href="register.html">Tạo tài khoản mới</a>
+			</div>
+		</form>
+		    <h3 id="error" style="color: red"></h3>
+	        <h3 id="result" style="color: green"></h3>
+	</div>
+	<div class="contact">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-4">
+					<span class="addres">
+					<i class="fa fa-map-marker"></i>
+					Trường ĐH Mỏ-Địa chất
+				    </span>
+					
+
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<span class="phone">
+					<i class="fa fa-mobile"></i>
+						+88888888
+					</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<span class="email">
+					<i class="fa fa-envelope">
+							HUMG@gmail.com
+					</i>
+				    </span>
+				</div>
+			</div>
+			<div class="icons">
+                <a href="#">
+                	<i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                	<i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                	<i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                	<i class="fab fa-youtube"></i>
+                </a>
+                <a href="#">
+                	<i class="far fa-envelope"></i>
+                </a>
+			</div>
+	</div>
+	<div class="footer">
+			Copyright ©2020 All rights reserved
+	</div>
+
+	<script type="text/javascript">
+		var obj_form = document.querySelector('#form');
+		obj_form.addEventListener('submit', function(){
+			var username = document.querySelector('#username')
+			.value;
+			var pass = document.querySelector('#pass')
+			.value;
+			var error = '';
+			var result = '';
+			
+			if (username == '') {
+				error = 'Không được để trống username';
+				document.querySelector('#username').focus();
+			} else if (pass == '') {
+				error = 'Không được để trống password';
+				document.querySelector('#pass').focus();
+			}
+			if (error == '') {
+				result = 'Đăng nhập thành công';
+			}
+			document.querySelector('#error').innerHTML = error;
+			document.querySelector('#result').innerHTML = result;
+			event.preventDefault();
+		})
+	</script>
+	
+</body>
+</html>

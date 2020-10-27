@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewpost" content="width=decive-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="awesome/css/all.min.css">
+	<script type="text/javascript" src="css/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="css/jquery-ui.min.js"></script>
+</head>
+<body>
+	<div class="menu">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-4">
+					<i class="fas fa-hand-sparkles" id="clear">
+						Fashion
+					</i>
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sale.html">SALES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<div class="login">
+						<a href="login.html" class="sidebar">Login/</a>
+					    <a href="register.html" class="sidebar">Register</a>
+					    <a href="cart.html" class="sidebar">
+					        <i class="fas fa-cart-plus"></i>
+					    </a>
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="cart">
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-6">
+				<div class="payment">Thanh toán</div>
+				<div class="info">Thông tin khách hàng</div>
+				<form class="form">
+					<div class="form-group">
+						<label for="name">Họ tên khách hàng</label>
+						<input type="text" id="name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="address">Địa chỉ</label>
+						<input type="text" id="address" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="phone">Số điện thoại</label>
+						<input type="number" id="phone" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="mail">Email</label>
+						<input type="email" id="mail" class="form-control">
+					</div>
+					<div class="form-group">
+                        <label for="exampleFormControlTextarea1">Example textarea</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <p class="pt">Chọn phương thức thanh toán</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Thanh toán trực tuyến
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="code" value="option1" checked>
+                        <label class="form-check-label" for="code">
+                            COD (dựa vào địa chỉ của bạn)
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Thanh toán</button>
+
+				</form>
+
+			</div>
+			<div class="col-md-6 col-sm-6 col-6">
+				<div class="order">Thông tin đơn hàng</div>
+				<table class="table table-bordered">
+                        <tbody>
+                        <tr>
+                            <th width="40%">Tên sản phẩm</th>
+                            <th width="12%">Số lượng</th>
+                            <th>Giá</th>
+                            <th>Thành tiền</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="product-avatar img-responsive" src="image/anh14.png" width="60">
+                                <div class="content-product">
+                                    <a href="san-pham/dsadsa/3" class="content-product-a">
+                                        Chain bucket bag                                     </a>
+                                </div>
+                            </td>
+                            <td>
+                              <span class="product-amount">
+                                  3                              </span>
+                            </td>
+                            <td>
+                              <span class="product-price-payment">
+                                 11 vnđ
+                              </span>
+                            </td>
+                            <td>
+                              <span class="product-price-payment">
+                                                                  33 vnđ
+                              </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img class="product-avatar img-responsive" src="image/anh15.png" width="60">
+                                <div class="content-product">
+                                    <a href="san-pham/sp-2/2" class="content-product-a">
+                                        Chain bucket bag                                        </a>
+                                </div>
+                            </td>
+                            <td>
+                              <span class="product-amount">
+                                  2                              </span>
+                            </td>
+                            <td>
+                              <span class="product-price-payment">
+                                 1 vnđ
+                              </span>
+                            </td>
+                            <td>
+                              <span class="product-price-payment">
+                                                                  2 vnđ
+                              </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" class="product-total">
+                                Tổng giá trị đơn hàng:
+                                <span class="product-price">
+                                35 vnđ
+                            </span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+			</div>
+		</div>
+	</div>
+	<div class="contact">
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-4">
+					<span class="addres">
+					<i class="fa fa-map-marker"></i>
+					Trường ĐH Mỏ-Địa chất
+				    </span>
+					
+
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<span class="phone">
+					<i class="fa fa-mobile"></i>
+						+88888888
+					</span>
+				</div>
+				<div class="col-md-4 col-sm-4 col-4">
+					<span class="email">
+					<i class="fa fa-envelope">
+							HUMG@gmail.com
+					</i>
+				    </span>
+				</div>
+			</div>
+			<div class="icons">
+                <a href="#">
+                	<i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                	<i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                	<i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                	<i class="fab fa-youtube"></i>
+                </a>
+                <a href="#">
+                	<i class="far fa-envelope"></i>
+                </a>
+			</div>
+		</div>
+		<div class="footer">
+			Copyright ©2020 All rights reserved
+		</div>
+</body>
+</html>

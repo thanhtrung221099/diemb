@@ -1,0 +1,239 @@
+.menu {
+    background: #fcdce1;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#clear {
+    font-size: 50px;
+    color: #f36100;
+}
+.nav-link {
+    color: black;
+}
+.nav-link:hover {
+	color: red;
+}
+.login {
+    margin-top: 7px;
+    color: black;
+}
+i.fas.fa-cart-plus {
+    font-size: 20px;
+}
+.head {
+    margin-left: 30px;
+}
+.sidebar {
+	color: black;
+}
+.sidebar:hover {
+	color: red;
+}
+.head {
+    margin-top: 20px;
+}
+img.img1 {
+    width: 100%;
+    height: 93%;
+}
+img.img2 {
+    width: 100%;
+    height: 95%;
+}
+img.img3 {
+    width: 95%;
+    height: 95%;
+}
+img.img4 {
+    width: 100%;
+    height: 95%;
+}
+img.img5 {
+    width: 95%;
+    height: 95%;
+}
+h1 {
+    text-align: center;
+    color: #f36100;
+}
+.name {
+    text-align: center;
+    font-size: 20px;
+}
+.money {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+a.carts {
+    color: green;
+    font-size: 20px;
+}
+.carts:hover {
+	color: red;
+}
+.product {
+    margin-top: 40px;
+}
+.news {
+    background: #bde3d8;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.body {
+    margin-left: 30px;
+}
+a.intro {
+    color: black;
+}
+.way {
+    margin-left: 40px;
+}
+.intro:hover {
+	color: blue;
+}
+h2 {
+    margin-left: 20px;
+}
+.new {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.names {
+	
+}
+.moneys {
+	
+	font-weight: bold;
+}
+span.addres {
+    font-size: 20px;
+    margin-left: 30px;
+    color: red;
+}
+span.phone {
+	font-size: 20px;
+    margin-left: 30px;
+    color: red;
+}
+span.email {
+	font-size: 20px;
+    margin-left: 30px;
+    color: red;
+}
+.icons {
+    text-align: center;
+    font-size: 25px;
+}
+.footer {
+    color: #fff;
+    background: black;
+    margin-left: 30px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.contact {
+    padding: 20px;
+    background-color:  #cce3f5;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.payment {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.info {
+    font-size: 30px;
+    margin-left: 30px;
+}
+form.form {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.order {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+table.table.table-bordered {
+    margin-top: 20px;
+}
+td.product-total {
+    font-size: 20px;
+    font-weight: bold;
+}
+.logins {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+p.get {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.adre {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+i.fa.fa-map-marker {
+    font-size: 30px;
+    color: red;
+}
+i.fas.fa-phone-alt {
+    font-size: 30px;
+    color: red;
+}
+i.far.fa-envelope-open {
+	font-size: 30px;
+    color: red;
+}
+.img {
+    text-align: center;
+    margin-top:  20px;
+}
+p.cate {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+img.blog1 {
+    margin-left: 30px;
+    width: 90%;
+}
+img.blog2 {
+    width: 90%;
+    margin-left: 10px;
+}
+img.blog3 {
+    width: 90%;
+}
+img.blog55 {
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+img.blog44 {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 95%;
+}
+img.sellera {
+    width: 95%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+img.sellerb {
+    width: 95%;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
